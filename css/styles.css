@@ -1,16 +1,122 @@
-/* Стили для bady */
-.page {
-    background-color: #ffffff;
-    color: #212121;
+:root{
+    --primary-text-color: #757575;
+    --title-text-color:#212121;
+    --accent-text-color:#2196F3;
+    --hero-title-color:#FFFFFF;
+    --footer-contact:rgba(255, 255, 255, 0.6);
+    --background-header-color:#FFFFFF;
+    --background-hero-color:#2F303A;
+    --background-features-example-color:#E5E5E5;
+    --background-team-color:#F5F4FA;
+    --background-footer-color:#2F303A;
 }
-
+/* Стили для bady */
+body {
+    background-color: var(--hero-title-color);
+    color: var(--title-text-color);
+    font-family:Roboto, sans-serif;
+}
+ul{
+    list-style:none;
+}
+/* Стили для header */
+.page-header{
+    background-color: var(--background-header-color);
+}
 .logo {
-    color: #212121;
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
 }
 .logo-web {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 .logo:hover,
 .logo:focus {
-    color: #2196F3
+    color: var(--accent-text-color);
+}
+/*hero*/
+.hero{
+    background-color: var(--background-hero-color);
+}
+/*Стили для button*/
+.hero-button {
+    color: var(--hero-title-color);
+    background-color: var(--accent-text-color);
+}
+/* Стили для nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+/* contact */
+.contact a {
+    color: var(--primary-text-color)
+}
+.contact a:hover,
+.contact a:focus {
+    color: var(--accent-text-color)
+}
+/* Стили для hero */
+.hero-title {
+    color: var(--hero-title-color);
+}
+/* Стили для section */
+.section-title {
+    color: var(--title-text-color);
+}
+/* Стили для features */
+.features{
+background-color: #E5E5E5;
+}
+.features-title {
+    color: var(--title-text-color);
+}
+.features-text {
+    color: var(--primary-text-color);
+}
+.features-title{
+    text-transform:uppercase;
+    font-size: 14px;
+}
+/*example*/
+.example{
+    background-color: var(--background-features-example-color);
+}
+/* Стили для team */
+.team{
+    background-color: var(--background-team-color);
+}
+.section-team-title {
+    color: var(--title-text-color);
+}
+.section-team-text {
+    color: var(--primary-text-color);
+}
+/* footer */
+.page-footer{
+    background-color: var(--background-footer-color);
+}
+.logo{
+    color: var(--hero-title-color)
+}
+.page-footer-logo-web{
+    color: var(--accent-text-color)
+}
+.page-footer a:hover,
+.page-footer a:focus {
+    color: var(--accent-text-color);
+}
+/*footer contact*/
+.footer-address {
+    color: var(--hero-title-color);
+}
+.page-footer-contact a{
+    color: var(--footer-contact);
+}
+.page-footer-contact a:hover,
+.page-footer-contact a:focus {
+    color: var(--accent-text-color)
 }
