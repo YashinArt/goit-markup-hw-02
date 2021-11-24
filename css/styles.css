@@ -61,11 +61,11 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.site-nav .link {
+.link {
     color: var(--title-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-text-color);
 }
 /* contact */
@@ -185,6 +185,9 @@ body {
 
 
 /* Портфолио */
+.current{
+    color: var(--accent-text-color);
+}
 .project-button,
 .project {
     list-style:none;
